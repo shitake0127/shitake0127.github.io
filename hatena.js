@@ -1,5 +1,5 @@
 .hatena-js{
-  (document.getElementById("hatena-js").)onclick = function(){
-    alert("hello");
+  document.getElementById("hatena-js").onclick = function(){
+    window.alert("hello");
   }
 }
